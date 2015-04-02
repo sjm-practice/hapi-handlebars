@@ -1,0 +1,29 @@
+{
+  "name": "hapi-handlebars",
+  "version": "1.0.0",
+  "description": "A simple hapi app for template practice.",
+  "main": "server.js",
+  "scripts": {
+    "test": "lab -c",
+    "start": "bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevenjmarsh/hapi-handlebars.git"
+  },
+  "keywords": [
+    "practice",
+    "templates",
+    "hapi"
+  ],
+  "author": "Steve Marsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenjmarsh/hapi-handlebars/issues"
+  },
+  "homepage": "https://github.com/stevenjmarsh/hapi-handlebars",
+  "dependencies": {
+    "handlebars": "^3.0.1",
+    "hapi": "^8.4.0"
+  }
+}
