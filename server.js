@@ -14,10 +14,10 @@ server.views({
   engines: {
     html: require('handlebars')
   },
-  path: 'views',
-  layoutPath: 'views/layout',
+  path: './views',
+  layoutPath: './views/layout',
   layout: 'default',
-  helpersPath: 'views/helpers'
+  helpersPath: './views/helpers'
   //partialsPath: 'views/partials'
 });
 
