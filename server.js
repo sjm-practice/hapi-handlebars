@@ -37,4 +37,15 @@ server.route({
   }
 });
 
+server.route({
+  path: '/fortune',
+  method: 'GET',
+  handler: {
+    view: {
+      template: 'fortune',
+      context: { pageHeader: 'Fortune' }
+    }
+  }
+});
+
 module.exports = server;

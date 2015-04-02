@@ -11,4 +11,8 @@ A simple node hapi server for practice with dynamic handlebars layout and partia
 * ...
 
 ## Tutorial / Resources Feedback
-* ... 
+* http://futurestud.io/blog/how-to-create-a-dynamic-handlebars-layout-template-in-hapijs/
+* An appreciated example, but a bit light on where to go from here, or how to achieve a slightly more complex example
+    * an example with multiple pages would have been helpful
+    * also, would like to see an example using partials
+    
