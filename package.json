@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "lab -c",
-    "start": "bin/www"
+    "start": "bin/www",
+    "debug": "bin/wwwd"
   },
   "repository": {
     "type": "git",

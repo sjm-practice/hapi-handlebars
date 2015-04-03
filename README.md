@@ -7,6 +7,10 @@ A simple node hapi server for practice with handlebars template engine, default 
     - trying a wwwd entry point for debug (node-debug)
         + MAY ABANDON THIS APPROACH/EXPIREMENT, IF NO BENEFITS FOUND
 * Handlebars, Partials and Helpers
+* Testing payload for existing string segments (using lab)
+* running custom scripts via npmjs
+    - npm run debug 
+        + where debug launches node-inspector
 
 ## Notes
 * I found the documentation for handlebars (at npmjs.org and handlebars.js) to be bit confusing
