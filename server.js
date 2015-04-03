@@ -17,8 +17,8 @@ server.views({
   path: './views',
   layoutPath: './views/layout',
   layout: 'default',
-  helpersPath: './views/helpers'
-  //partialsPath: 'views/partials'
+  helpersPath: './views/helpers',
+  partialsPath: './views/partials'
 });
 
 /** 
@@ -43,7 +43,15 @@ server.route({
   handler: {
     view: {
       template: 'fortune',
-      context: { pageHeader: 'Fortune' }
+      context: {
+        pageHeader: 'Fortune',
+        people: [
+          { name: "Bobby", age: "23" },
+          { name: "Susie", age: "31" },
+          { name: "Fred", age: "34" },
+          { name: "James", age: "56" }
+        ]
+      }
     }
   }
 });

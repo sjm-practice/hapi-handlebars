@@ -1,3 +1,17 @@
 <h1>{{pageHeader}}</h1>
 <p>{{fortune}}</p>
 <a href="/">home</a>
+<div>
+  <h2>A list of people using block / mustache iterator </h2>
+  <ul>
+    {{#people}}
+      <li>Name: {{name}}  Age: {{age}}</li>  
+    {{/people}}
+  </ul>
+</div>
+<div>
+  <h2>A list of same people and same iterator, using partials</h2>
+    {{#people}}
+      {{> person }}
+    {{/people}}
+</div>
